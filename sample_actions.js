@@ -22,7 +22,7 @@ export const getMatches = (context, matches) => {
         })
     })
 };
-export const postPlayer = (player) => {
+export const postPlayer = (context, player) => {
     let names = []
     let id = null
 
